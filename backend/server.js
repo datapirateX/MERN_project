@@ -18,8 +18,6 @@ app.use((req, res, next) => {
 // routes
 app.use('/api/workouts', workoutRoutes)
 
-mongoose.set("strictQuery", false);
-
 // connect to db
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
@@ -32,3 +30,19 @@ mongoose.connect(process.env.MONGO_URI)
   .catch((err) => {
     console.log(err)
   }) 
+
+
+
+  // oOGUNbmpFg7bfLp2
+  // work_out_app
+
+
+
+  // aabdullah0095
+  // ZY6npLQneEjacvWN
+
+
+
+
+
+
